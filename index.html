@@ -1,292 +1,101 @@
-<!DOCTYPE html><html lang="en"><head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- HTML Meta Tags -->
-        <title>$JJMOJI - The Cult of JJ</title>
-        <meta name="description" content="You are one of us. Come join the cult of JJ.">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$JJMOJI - The Cult of JJ</title>
+    <meta name="description" content="You are one of us. Come join the cult of JJ.">
 
-        <!-- Facebook Meta Tags -->
-        <meta property="og:url" content="https://jjmoji.me">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="$JJMOJI - The Cult of JJ">
-        <meta property="og:description" content="You are one of us. Come join the cult of JJ.">
-        <meta property="og:image" content="images/jjlogo.png">
+    <meta property="og:url" content="https://jjmoji.me">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="$JJMOJI - The Cult of JJ">
+    <meta property="og:description" content="You are one of us. Come join the cult of JJ.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/jjlogo.png">
 
-        <!-- Twitter Meta Tags -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta property="twitter:domain" content="jjmoji.me">
-        <meta property="twitter:url" content="https://jjmoji.me">
-        <meta name="twitter:title" content="$JJMOJI - The Cult of JJ">
-        <meta name="twitter:description" content="You are one of us. Come join the cult of JJ.">
-        <meta name="twitter:image" content="/img/jjlogo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="jjmoji.me">
+    <meta property="twitter:url" content="https://jjmoji.me">
+    <meta name="twitter:title" content="$JJMOJI - The Cult of JJ">
+    <meta name="twitter:description" content="You are one of us. Come join the cult of JJ.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/jjlogo.png">
 
-        <!-- Meta Tags Generated via https://www.opengraph.xyz -->
-        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <!-- PFP Generator Section -->
-        <section id="pfp-generator">
-            <div class="floating-jjs"></div>
-            <div class="social-links">
-                <a href="https://x.com/jjmojionsolana" class="social-btn" title="X (Twitter)" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
-                    </svg>
-                </a>
-                <a href="https://t.me/jjmojibuy" class="social-btn" title="Telegram" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"></path>
-                    </svg>
-                </a>
-                <a href="#" class="social-btn" title="Pump.fun" target="_blank">
-                    <img src="images/pumpfunlogo.png" alt="Pump.fun" class="social-icon">
-                </a>
-            </div>
-            <div class="container">
-                <h2>Find Your JJ</h2>
-                <p class="section-subtitle">
-                    There is a perfect JJ for everyone. 🙂
-                </p>
-                <div id="pfp-app">
-                    <div class="slot-machine">
-                        <div class="slot-frame">
-                            <div class="slot-window">
-                                <div class="slot-reel" id="slot-reel">
-                                    <img src="images/1.png" alt="JJ" class="slot-jj">
-                                </div>
-                                <div class="slot-bg" id="slot-bg"></div>
-                                <button class="download-btn" id="download-btn" title="Download your JJ">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                                        <polyline points="7 10 12 15 17 10"></polyline>
-                                        <line x1="12" y1="15" x2="12" y2="3"></line>
-                                    </svg>
-                                </button>
-                                <button class="bg-picker-btn" id="bg-picker-btn" title="Background">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <circle cx="12" cy="12" r="3"></circle>
-                                        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
-                                    </svg>
-                                </button>
-                                <div class="bg-picker-popup" id="bg-picker-popup">
-                                    <div class="bg-picker-row">
-                                        <button class="bg-swatch bg-swatch-none active" data-bg="none" title="No background">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                                <line x1="18" y1="6" x2="6" y2="18"></line>
-                                            </svg>
-                                        </button>
-                                    </div>
-                                    <div class="bg-picker-row">
-                                        <button class="bg-swatch" data-bg="solid" data-color="#FF6B6B" style="background: #ff6b6b" title="Coral Red"></button>
-                                        <button class="bg-swatch" data-bg="solid" data-color="#4ECDC4" style="background: #4ecdc4" title="Teal"></button>
-                                        <button class="bg-swatch" data-bg="solid" data-color="#1a1a1a" style="background: #1a1a1a" title="Black"></button>
-                                        <button class="bg-swatch" data-bg="solid" data-color="#5dbb63" style="background: #5dbb63" title="JJ Green"></button>
-                                        <button class="bg-swatch" data-bg="solid" data-color="#FFEAA7" style="background: #ffeaa7" title="Soft Yellow"></button>
-                                        <button class="bg-swatch" data-bg="solid" data-color="#DDA0DD" style="background: #dda0dd" title="Plum"></button>
-                                        <button class="bg-swatch bg-swatch-custom" id="bg-custom-btn" data-bg="custom" title="Custom color">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                                <circle cx="12" cy="12" r="10" stroke="url(#cw)"></circle>
-                                                <defs>
-                                                    <linearGradient id="cw" x1="0" y1="0" x2="24" y2="24">
-                                                        <stop offset="0%" stop-color="#ff0000"></stop>
-                                                        <stop offset="25%" stop-color="#ffff00"></stop>
-                                                        <stop offset="50%" stop-color="#00ff00"></stop>
-                                                        <stop offset="75%" stop-color="#0000ff"></stop>
-                                                        <stop offset="100%" stop-color="#ff00ff"></stop>
-                                                    </linearGradient>
-                                                </defs>
-                                            </svg>
-                                        </button>
-                                    </div>
-                                    <div class="bg-custom-dialog" id="bg-custom-dialog">
-                                        <input type="color" id="bg-custom-wheel" class="bg-custom-wheel" value="#ff0000">
-                                        <div class="bg-custom-inputs">
-                                            <div class="bg-custom-field">
-                                                <label for="bg-custom-hex">HEX</label>
-                                                <input type="text" id="bg-custom-hex" class="bg-custom-input" value="#ff0000" maxlength="7" spellcheck="false">
-                                            </div>
-                                            <div class="bg-custom-field">
-                                                <label>RGB</label>
-                                                <div class="bg-custom-rgb">
-                                                    <input type="number" id="bg-custom-r" class="bg-custom-input bg-custom-rgb-input" value="255" min="0" max="255">
-                                                    <input type="number" id="bg-custom-g" class="bg-custom-input bg-custom-rgb-input" value="0" min="0" max="255">
-                                                    <input type="number" id="bg-custom-b" class="bg-custom-input bg-custom-rgb-input" value="0" min="0" max="255">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="bg-picker-row">
-                                        <button class="bg-swatch" data-bg="gradient" data-color="linear-gradient(135deg, #9945FF, #14F195)" style="
-                                                background: linear-gradient(
-                                                    135deg,
-                                                    #9945ff,
-                                                    #14f195
-                                                );
-                                            " title="Solana"></button>
-                                        <button class="bg-swatch" data-bg="gradient" data-color="linear-gradient(135deg, #FF6B6B, #FFE66D)" style="
-                                                background: linear-gradient(
-                                                    135deg,
-                                                    #ff6b6b,
-                                                    #ffe66d
-                                                );
-                                            " title="Sunset"></button>
-                                        <button class="bg-swatch" data-bg="gradient" data-color="linear-gradient(135deg, #4ECDC4, #556270)" style="
-                                                background: linear-gradient(
-                                                    135deg,
-                                                    #4ecdc4,
-                                                    #556270
-                                                );
-                                            " title="Ocean"></button>
-                                        <button class="bg-swatch" data-bg="gradient" data-color="linear-gradient(135deg, #667eea, #764ba2)" style="
-                                                background: linear-gradient(
-                                                    135deg,
-                                                    #667eea,
-                                                    #764ba2
-                                                );
-                                            " title="Purple Haze"></button>
-                                    </div>
-                                    <div class="bg-picker-row" id="bg-image-row">
-                                        <!-- Image bg swatches populated by JS -->
-                                    </div>
-                                </div>
-                                <div class="slot-waiting" id="slot-waiting">
-                                    <img src="images/jjwait.png" alt="Loading...">
-                                </div>
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="pfp-generator">
+        <div class="floating-jjs"></div>
+        <div class="social-links">
+            <a href="https://x.com/jjmojionsolana" class="social-btn" title="X (Twitter)" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+                </svg>
+            </a>
+            <a href="https://t.me/jjmojibuy" class="social-btn" title="Telegram" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"></path>
+                </svg>
+            </a>
+            <a href="#" class="social-btn" title="Pump.fun" target="_blank">
+                <img src="https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/pumpfunlogo.png" alt="Pump.fun" class="social-icon">
+            </a>
+        </div>
+        <div class="container">
+            <h2>Find Your JJ</h2>
+            <p class="section-subtitle">There is a perfect JJ for everyone. 🙂</p>
+            <div id="pfp-app">
+                <div class="slot-machine">
+                    <div class="slot-frame">
+                        <div class="slot-window">
+                            <div class="slot-reel" id="slot-reel">
+                                <img src="https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/1.png" alt="JJ" class="slot-jj">
                             </div>
-                        </div>
-                        <button class="btn btn-primary spin-btn" id="spin-btn">
-                            ROLL!
-                        </button>
-                        <div class="result-info" id="result-info"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Lore Section -->
-        <section id="lore">
-            <div class="floating-jjs"></div>
-            <div class="container">
-                <div class="lore-content">
-                    <div class="lore-image">
-                        <img src="images/lore.png" alt="The Legend of JJ">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Hero Section -->
-        <section id="hero">
-            <div class="hero-content">
-                <div class="hero-emoji">
-                    <img src="images/1.png" alt="JJ Emoji" class="jj-main">
-                </div>
-                <h1>$JJMOJI</h1>
-                <p class="tagline">
-                    The most beloved emoji on Discord, now on chain.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#" class="btn btn-primary">Buy $JJMOJI</a>
-                </div>
-                <div class="floating-jjs">
-                    <img src="images/2.png" alt="JJ" class="float-jj jj-1">
-                    <img src="images/3.png" alt="JJ" class="float-jj jj-2">
-                    <img src="images/4.png" alt="JJ" class="float-jj jj-3">
-                    <img src="images/5.png" alt="JJ" class="float-jj jj-4">
-                    <img src="images/6.png" alt="JJ" class="float-jj jj-5">
-                    <img src="images/7.png" alt="JJ" class="float-jj jj-6">
-                </div>
-            </div>
-        </section>
-
-        <!-- Gallery Section -->
-        <section id="gallery">
-            <div class="floating-jjs"></div>
-            <div class="container">
-                <h2>Gallery</h2>
-                <p class="section-subtitle">
-                    Community creations and JJ moments
-                </p>
-            </div>
-            <div class="gallery-container">
-                <button class="gallery-arrow gallery-arrow-left" id="gallery-prev">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="15 18 9 12 15 6"></polyline>
-                    </svg>
-                </button>
-                <div class="gallery-display">
-                    <div class="gallery-side gallery-prev-img">
-                        <img src="" alt="Previous" id="gallery-prev-img">
-                    </div>
-                    <div class="gallery-main">
-                        <img src="" alt="JJ Gallery" id="gallery-main-img">
-                    </div>
-                    <div class="gallery-side gallery-next-img">
-                        <img src="" alt="Next" id="gallery-next-img">
-                    </div>
-                </div>
-                <button class="gallery-arrow gallery-arrow-right" id="gallery-next">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="9 18 15 12 9 6"></polyline>
-                    </svg>
-                </button>
-            </div>
-            <div class="gallery-dots" id="gallery-dots"></div>
-        </section>
-
-        <!-- Whack-a-JJ Game Section -->
-        <section id="whack-game">
-            <div class="floating-jjs"></div>
-            <div class="container">
-                <h2>Whack-a-JJ</h2>
-                <p class="section-subtitle">
-                    Whack those JJs! How many can you get?
-                </p>
-                <div class="game-wrapper">
-                    <div class="game-stats">
-                        <div class="game-score">
-                            Score: <span id="game-score">0</span>
-                        </div>
-                        <div class="game-timer">
-                            Time: <span id="game-timer">30</span>s
+                            <div class="slot-bg" id="slot-bg"></div>
+                            <button class="download-btn" id="download-btn" title="Download your JJ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                                </svg>
+                            </button>
                         </div>
                     </div>
-                    <div class="game-board" id="game-board">
-                        <div class="game-hole" data-hole="0"></div>
-                        <div class="game-hole" data-hole="1"></div>
-                        <div class="game-hole" data-hole="2"></div>
-                        <div class="game-hole" data-hole="3"></div>
-                        <div class="game-hole" data-hole="4"></div>
-                        <div class="game-hole" data-hole="5"></div>
-                        <div class="game-hole" data-hole="6"></div>
-                        <div class="game-hole" data-hole="7"></div>
-                        <div class="game-hole" data-hole="8"></div>
-                    </div>
-                    <div class="game-final-score" id="game-final-score"></div>
-                    <button class="btn btn-primary game-start-btn" id="game-start-btn">
-                        Start Game
-                    </button>
+                    <button class="btn btn-primary spin-btn" id="spin-btn">ROLL!</button>
                 </div>
             </div>
-            <div class="game-cursor" id="game-cursor"></div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Footer -->
-        <footer>
-            <div class="container">
-                <p>
-                    � 2025 $JJMOJI. All rights reserved. Cryptocurrencies
-                    and memecoins are volatile assets. DYOR. This is not
-                    financial advice.
-                </p>
+    <section id="lore">
+        <div class="container">
+            <div class="lore-content">
+                <div class="lore-image">
+                    <img src="https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/lore.png" alt="The Legend of JJ">
+                </div>
             </div>
-        </footer>
+        </div>
+    </section>
 
-        <script src="js/script.js"></script>
-    
+    <section id="hero">
+        <div class="hero-content">
+            <div class="hero-emoji">
+                <img src="https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/1.png" alt="JJ Emoji" class="jj-main">
+            </div>
+            <h1>$JJMOJI</h1>
+            <p class="tagline">The most beloved emoji on Discord, now on chain.</p>
+            <div class="floating-jjs">
+                <img src="https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/2.png" alt="JJ" class="float-jj jj-1">
+                <img src="https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/3.png" alt="JJ" class="float-jj jj-2">
+                <img src="https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/4.png" alt="JJ" class="float-jj jj-3">
+                <img src="https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/5.png" alt="JJ" class="float-jj jj-4">
+                <img src="https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/6.png" alt="JJ" class="float-jj jj-5">
+            </div>
+        </div>
+    </section>
 
-</body></html>
+    <script src="js/script.js"></script>
+</body>
+</html>
