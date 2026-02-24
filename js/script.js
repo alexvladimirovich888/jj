@@ -793,23 +793,23 @@ function initSlotMachine() {
 // Gallery
 function initGallery() {
   const galleryImages = [
-    "img/gallery/2025-12-02 12.56.53.jpg",
-    "img/gallery/2025-12-02 12.57.25.jpg",
-    "img/gallery/2025-12-02 12.57.31.jpg",
-    "img/gallery/2025-12-02 12.58.04.jpg",
-    "img/gallery/2025-12-02 12.58.08.jpg",
-    "img/gallery/2025-12-02 12.58.11.jpg",
-    "img/gallery/2025-12-02 12.58.15.jpg",
-    "img/gallery/2025-12-02 12.58.18.jpg",
-    "img/gallery/2025-12-02 12.58.21.jpg",
-    "img/gallery/2025-12-02 12.58.24.jpg",
-    "img/gallery/2025-12-02 12.58.26.jpg",
-    "img/gallery/2025-12-02 12.58.29.jpg",
-    "img/gallery/2025-12-02 12.58.32.jpg",
-    "img/gallery/2025-12-02 12.58.35.jpg",
-    "img/gallery/2025-12-02 12.58.38.jpg",
-    "img/gallery/2025-12-02 12.58.41.jpg",
-    "img/gallery/2025-12-02 12.58.44.jpg",
+    "https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/gallery/2025-12-02%2012.56.53.jpg",
+    "https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/gallery/2025-12-02%2012.57.25.jpg",
+    "https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/gallery/2025-12-02%2012.57.31.jpg",
+    "https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/gallery/2025-12-02%2012.58.04.jpg",
+    "https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/gallery/2025-12-02%2012.58.08.jpg",
+    "https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/gallery/2025-12-02%2012.58.11.jpg",
+    "https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/gallery/2025-12-02%2012.58.15.jpg",
+    "https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/gallery/2025-12-02%2012.58.18.jpg",
+    "https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/gallery/2025-12-02%2012.58.21.jpg",
+    "https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/gallery/2025-12-02%2012.58.24.jpg",
+    "https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/gallery/2025-12-02%2012.58.26.jpg",
+    "https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/gallery/2025-12-02%2012.58.29.jpg",
+    "https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/gallery/2025-12-02%2012.58.32.jpg",
+    "https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/gallery/2025-12-02%2012.58.35.jpg",
+    "https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/gallery/2025-12-02%2012.58.38.jpg",
+    "https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/gallery/2025-12-02%2012.58.41.jpg",
+    "https://raw.githubusercontent.com/alexvladimirovich888/jj/main/images/gallery/2025-12-02%2012.58.44.jpg"
   ];
 
   const prevBtn = document.getElementById("gallery-prev");
